@@ -8,3 +8,47 @@ body {
   background-color: #121212;
   font-family: 'Roboto', sans-serif;
 }
+
+main {
+  width: 90%;
+  max-width: 50rem;
+  margin: auto;
+}
+
+#about-items {
+  padding: 2rem;
+  border-radius: 6px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+main h2 {
+  text-align: center;
+  font-family: 'IM Fell English SC';
+  margin: 0 0 1.5rem 0;
+  color: #121212;
+}
+
+#about-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#about-items li {
+  width: 10rem;
+  text-align: center;
+}
+
+#about-items li h3 {
+  margin: 0.5rem 0;
+  text-transform: uppercase;
+}
+
+#about-items li p {
+  font-size: 0.9rem;
+}
