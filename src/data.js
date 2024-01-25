@@ -29,3 +29,26 @@ export const ABOUT_DATA = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in velit vitae arcu placerat auctor.',
   },
 ];
+
+export const SUBGENRE_DATA = {
+  medieval: {
+    title: 'medieval dungeon synth',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in velit vitae arcu placerat auctor.',
+  },
+  darkAmbient: {
+    title: 'dark ambient',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in velit vitae arcu placerat auctor.',
+  },
+  winter: {
+    title: 'winter synth',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in velit vitae arcu placerat auctor poo.',
+  },
+  dino: {
+    title: 'dino synth',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in velit vitae arcu placerat auctor.',
+  },
+};

@@ -1,5 +1,6 @@
 import Header from './components/Header/Header.jsx';
 import AboutItems from './components/AboutItems.jsx';
+import SubGenres from './components/SubGenres.jsx';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <main>
         <AboutItems />
+        <SubGenres />
       </main>
     </>
   );
