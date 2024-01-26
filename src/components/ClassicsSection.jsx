@@ -5,15 +5,15 @@ import { CLASSICS_CARD_DATA } from '../data';
 export default function ClassicsSection() {
   return (
     <Section title="Classic Dungeon Synth" id="classics">
-      <ul>
+      <div className="cards-container">
         {CLASSICS_CARD_DATA.map((classicItem, index) => (
           <Card
             key={index}
             project={classicItem.project}
             content={`${classicItem.release}, (${classicItem.year})`}
-          ></Card>
+          />
         ))}
-      </ul>
+      </div>
     </Section>
   );
 }

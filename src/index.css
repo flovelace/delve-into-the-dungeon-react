@@ -134,20 +134,20 @@ main h2 {
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
 }
 
-.card {
-  flex: 0 0 200px;
-  margin: 10px;
-  padding: 1rem;
-  border: 1px solid rgb(59, 59, 59);
-  border-radius: 6px;
-  color: #cecece;
-  text-transform: uppercase;
-  background-color: hsla(0, 100%, 100%, 0.16);
-  box-shadow: 0px 24px 38px 3px hsla(0, 0%, 0%, 0.14),
-    0px 9px 46px 8px hsla(0, 0%, 0%, 0.12),
-    0px 11px 15px -7px hsla(0, 0%, 0%, 0.2);
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.card h3 {
+.card {
+  flex: 1;
+  padding: 1rem;
+  height: 300px;
+  min-width: 200px;
+  max-width: 200px;
+  border-radius: 6px;
   color: #f5f5f5;
+  background-color: #121212;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
