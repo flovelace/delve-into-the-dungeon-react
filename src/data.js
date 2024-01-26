@@ -4,6 +4,9 @@ import saturnImg from './assets/saturn.svg';
 import trinityImg from './assets/trinity.svg';
 
 import secretImg from './assets/secretstairways.jpg';
+import depressiveImg from './assets/depressivesilence.jpg';
+import forgottenImg from './assets/forgottenpathways.jpg';
+import wongravenImg from './assets/wongraven.jpg';
 
 export const ABOUT_DATA = [
   {
@@ -57,21 +60,25 @@ export const SUBGENRE_DATA = {
 
 export const CLASSICS_CARD_DATA = [
   {
+    image: secretImg,
     project: 'Secret Stairways',
     release: 'Enchantment of the Ring',
     year: '2017',
   },
   {
+    image: depressiveImg,
     project: 'Depressive Silence',
     release: 'Mourning',
     year: '1996',
   },
   {
+    image: forgottenImg,
     project: 'Forgotten Pathways',
     release: 'Shrouded in Mystery',
     year: '2017',
   },
   {
+    image: wongravenImg,
     project: 'Wongraven',
     release: 'Fjelltronen',
     year: '1995',
