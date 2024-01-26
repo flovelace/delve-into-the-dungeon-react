@@ -3,6 +3,8 @@ import phosImg from './assets/phos.svg';
 import saturnImg from './assets/saturn.svg';
 import trinityImg from './assets/trinity.svg';
 
+import secretImg from './assets/secretstairways.jpg';
+
 export const ABOUT_DATA = [
   {
     image: airImg,

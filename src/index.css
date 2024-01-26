@@ -67,6 +67,10 @@ main h2 {
   font-size: 0.9rem;
 }
 
+#no-topic {
+  color: #f5f5f5;
+}
+
 #subgenres {
   margin: 3rem auto;
 }
@@ -119,5 +123,31 @@ main h2 {
 }
 
 #tab-content p {
+  color: #cecece;
+}
+
+#classics h2 {
+  text-align: left;
+  background: linear-gradient(40deg, #616161, #616161, #f5f5f5, #f5f5f5);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+}
+
+.card {
+  flex: 0 0 200px;
+  margin: 10px;
+  padding: 1rem;
+  border: 1px solid rgb(59, 59, 59);
+  border-radius: 6px;
+  color: #cecece;
+  text-transform: uppercase;
+  background-color: hsla(0, 100%, 100%, 0.16);
+  box-shadow: 0px 24px 38px 3px hsla(0, 0%, 0%, 0.14),
+    0px 9px 46px 8px hsla(0, 0%, 0%, 0.12),
+    0px 11px 15px -7px hsla(0, 0%, 0%, 0.2);
+}
+
+.card h3 {
   color: #f5f5f5;
 }

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import TabButton from './TabButton';
-import Section from './section';
+import Section from './Section';
 import Tabs from './Tabs';
 import { SUBGENRE_DATA } from '../data';
 
@@ -44,7 +44,7 @@ export default function SubGenres() {
           </>
         }
       ></Tabs>
-      {!selectedTopic && <p>Learn more about Dungeon Synth Subgenres</p>}
+      {!selectedTopic && <p id="no-topic">Click a subgenre to learn more.</p>}
       {selectedTopic && (
         <div id="tab-content">
           <h3>{SUBGENRE_DATA[selectedTopic].title}</h3>
