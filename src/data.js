@@ -8,6 +8,11 @@ import depressiveImg from './assets/depressivesilence.jpg';
 import forgottenImg from './assets/forgottenpathways.jpg';
 import wongravenImg from './assets/wongraven.jpg';
 
+import diploImg from './assets/diplodocus.jpg';
+import holeImg from './assets/holedweller.jpg';
+import gondarImg from './assets/gondar.jpg';
+import oldImg from './assets/oldsorcery.jpg';
+
 export const ABOUT_DATA = [
   {
     image: airImg,
@@ -87,19 +92,23 @@ export const CLASSICS_CARD_DATA = [
 
 export const NEW_PROJECTS_CARD_DATA = [
   {
+    image: holeImg,
     project: 'Hole Dweller',
     description: 'Dungeon synth for the hobbit hearted.',
   },
   {
+    image: gondarImg,
     project: 'Gondar',
     description: 'Dark, poignant and melancholic medieval synth.',
   },
   {
+    image: oldImg,
     project: 'Old Sorcery',
     description:
       'Atmosphere and fantasical dungeon synth with a hint of black metal',
   },
   {
+    image: diploImg,
     project: 'Diplodocus',
     description: 'Dark and dino synth with antiquated ambience',
   },

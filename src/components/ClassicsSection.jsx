@@ -11,7 +11,8 @@ export default function ClassicsSection() {
             key={index}
             image={classicItem.image}
             project={classicItem.project}
-            content={`${classicItem.release}, (${classicItem.year})`}
+            content={classicItem.release}
+            year={`(${classicItem.year})`}
           />
         ))}
       </div>

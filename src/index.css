@@ -134,8 +134,10 @@ main h2 {
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
 }
 
-.cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+#projects h2 {
+  text-align: left;
+  background: linear-gradient(40deg, #616161, #616161, #f5f5f5, #f5f5f5);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
 }
