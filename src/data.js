@@ -3,6 +3,8 @@ import phosImg from './assets/phos.svg';
 import saturnImg from './assets/saturn.svg';
 import trinityImg from './assets/trinity.svg';
 
+import leviathanImg from './assets/leviathan.svg';
+
 import secretImg from './assets/secretstairways.jpg';
 import depressiveImg from './assets/depressivesilence.jpg';
 import forgottenImg from './assets/forgottenpathways.jpg';
@@ -39,6 +41,13 @@ export const ABOUT_DATA = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in velit vitae arcu placerat auctor.',
   },
 ];
+
+export const TAB_SUBHEADER_DATA = {
+  image: leviathanImg,
+  title: 'Learn more.',
+  subtitle:
+    'There are many different dungeon synth subgenres. Here are the most common ones:',
+};
 
 export const SUBGENRE_DATA = {
   medieval: {

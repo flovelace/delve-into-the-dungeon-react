@@ -1,9 +1,10 @@
 import { useState } from 'react';
 
 import TabButton from './TabButton';
+import TabHeader from './TabHeader';
 import Section from './Section';
 import Tabs from './Tabs';
-import { SUBGENRE_DATA } from '../data';
+import { TAB_SUBHEADER_DATA, SUBGENRE_DATA } from '../data';
 
 export default function SubGenres() {
   const [selectedTopic, setSelectedTopic] = useState();
@@ -14,6 +15,11 @@ export default function SubGenres() {
 
   return (
     <Section title="Dungeon Synth Subgenres" id="subgenres">
+      <TabHeader
+        image={TAB_SUBHEADER_DATA.image}
+        title={TAB_SUBHEADER_DATA.title}
+        subtitle={TAB_SUBHEADER_DATA.subtitle}
+      ></TabHeader>
       <Tabs
         buttons={
           <>

@@ -3,6 +3,7 @@ import AboutItems from './components/AboutItems.jsx';
 import SubGenres from './components/SubGenres.jsx';
 import ClassicsSection from './components/ClassicsSection.jsx';
 import ProjectsSection from './components/ProjectsSection.jsx';
+import TabHeader from './components/TabHeader.jsx';
 
 function App() {
   return (
