@@ -105,7 +105,7 @@ export const NEW_PROJECTS_CARD_DATA = [
     image: oldImg,
     project: 'Old Sorcery',
     description:
-      'Atmosphere and fantasical dungeon synth with a hint of black metal',
+      'Atmosphere and fantastical dungeon synth with a hint of black metal',
   },
   {
     image: diploImg,
