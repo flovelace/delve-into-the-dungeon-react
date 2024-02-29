@@ -1,4 +1,5 @@
 import './Header.css';
+import Nav from '../Nav';
 
 const headerDescriptions = ['Delve', 'Fall', 'Descend'];
 
@@ -12,6 +13,7 @@ export default function Header() {
   return (
     <header>
       <h1>{description} into the Dungeon</h1>
+      <Nav />
     </header>
   );
 }
